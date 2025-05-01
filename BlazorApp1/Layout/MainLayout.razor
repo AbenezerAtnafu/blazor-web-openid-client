@@ -1,7 +1,7 @@
 ﻿@inherits LayoutComponentBase
 @using Microsoft.AspNetCore.Components.WebAssembly.Authentication
 @inject SignOutSessionStateManager SignOutManager
-@inject NavigationManager nav
+@inject NavigationManager Nav
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -30,6 +30,6 @@
     public async Task Logout()
     {
         await SignOutManager.SetSignOutState();
-        nav.NavigateTo("authentication/logout");
+        Nav.NavigateTo("authentication/logout");
     }
 }

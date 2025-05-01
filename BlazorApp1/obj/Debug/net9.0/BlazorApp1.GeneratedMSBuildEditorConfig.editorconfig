@@ -28,8 +28,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/abenezer/Documents/Work/BlazorApp1/BlazorApp1/Authentication.razor]
-build_metadata.AdditionalFiles.TargetPath = QXV0aGVudGljYXRpb24ucmF6b3I=
+[/Users/abenezer/Documents/Work/BlazorApp1/BlazorApp1/Pages/Authentication/LoginCallback.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQXV0aGVudGljYXRpb24vTG9naW5DYWxsYmFjay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/abenezer/Documents/Work/BlazorApp1/BlazorApp1/Pages/Counter.razor]

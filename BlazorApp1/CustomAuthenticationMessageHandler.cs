@@ -7,6 +7,6 @@ public class CustomAuthenticationMessageHandler:AuthorizationMessageHandler
 {
     public CustomAuthenticationMessageHandler(IAccessTokenProvider provider, NavigationManager navigation) : base(provider, navigation)
     {
-        ConfigureHandler(new string[] {"http://localhost:5032/identity"});
+        ConfigureHandler(new string[] {"http://localhost:5059/"});
     }
 }
